@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>うまでしか</title><link href="https://www.yoshio.dev/" rel="alternate"></link><link href="https://www.yoshio.dev/feeds/all.atom.xml" rel="self"></link><id>https://www.yoshio.dev/</id><updated>2023-05-07T16:50:00+09:00</updated><entry><title>今月の初めての記事</title><link href="https://www.yoshio.dev/diary-2023-05-07.html" rel="alternate"></link><published>2023-05-07T16:50:00+09:00</published><updated>2023-05-07T16:50:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-07:/diary-2023-05-07.html</id><content type="html">&lt;p&gt;書きます。
-テストです。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;def say():
-print(&amp;quot;Hello&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="diary"></category><category term="日常"></category></entry></feed>
