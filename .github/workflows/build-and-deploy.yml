@@ -1,0 +1,35 @@
+name: Build Blog Page
+run-name: ${{ github.actor }} Deply Blog for yoshio.dev 🚀
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+          architecture: 'x64'
+      - name: Setup Python Env
+        run: pip3 install pelican markdown ghp-import \
+      - name: Update Submodule
+        run: git submodule update --init --recursive
+      - name: Run Pelican build
+        run: make html
+      - name: Run Pelican Publish
+        run: make publish
+      - name: make output folder
+        run: ghp-import output
+      - name: Publish blog page
+        run: |
+          git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git push origin gh-pages; \
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
