@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - with:
+          fetch-depth: 0
+          token: ${{ secrets.ACCESS_TOKEN }}
+          submodules: true
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
@@ -17,13 +21,6 @@ jobs:
           architecture: 'x64'
       - name: Setup Python Env
         run: pip3 install pelican markdown ghp-import \
-      - name: Update Submodule
-        run: |
-          git config --global user.name "${GITHUB_ACTOR}"
-          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git submodule update --init --recursive
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Run Pelican build
         run: make html
       - name: Run Pelican Publish
