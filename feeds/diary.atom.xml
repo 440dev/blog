@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>うまでしか - diary</title><link href="https://www.yoshio.dev/" rel="alternate"></link><link href="https://www.yoshio.dev/feeds/diary.atom.xml" rel="self"></link><id>https://www.yoshio.dev/</id><updated>2023-05-08T00:00:00+09:00</updated><entry><title>Github Actionを使って楽々更新出来るように</title><link href="https://www.yoshio.dev/github-actionwoshi-tsutele-geng-xin-chu-lai-ruyouni.html" rel="alternate"></link><published>2023-05-08T00:00:00+09:00</published><updated>2023-05-08T00:00:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-08:/github-actionwoshi-tsutele-geng-xin-chu-lai-ruyouni.html</id><summary type="html">&lt;p&gt;GW明け一日目の月曜日。
-今夜はバドミントンも行くが、雨が凄いので憂鬱。&lt;/p&gt;
-&lt;p&gt;Blog更新がコマンドラインからのみだとめんどくさい、
-このためGitHub Actionで、Github上で日記ファイルを置くと、勝手にビルドされて日記が更新されるように …&lt;/p&gt;</summary><content type="html">&lt;p&gt;GW明け一日目の月曜日。
-今夜はバドミントンも行くが、雨が凄いので憂鬱。&lt;/p&gt;
-&lt;p&gt;Blog更新がコマンドラインからのみだとめんどくさい、
-このためGitHub Actionで、Github上で日記ファイルを置くと、勝手にビルドされて日記が更新されるようにした。
-そして、これはそれを行ってからの初日記。
-ちゃんと動けば良いが、動かなかったら更新されないだけ。。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>うまでしか - diary</title><link href="https://www.yoshio.dev/" rel="alternate"></link><link href="https://www.yoshio.dev/feeds/diary.atom.xml" rel="self"></link><id>https://www.yoshio.dev/</id><updated>2023-05-08T00:00:00+09:00</updated><entry><title>Github Actionを使って楽々更新出来るように</title><link href="https://www.yoshio.dev/diary-2023-05-08.html" rel="alternate"></link><published>2023-05-08T00:00:00+09:00</published><updated>2023-05-08T00:00:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-08:/diary-2023-05-08.html</id><summary type="html">&lt;p&gt;GW明け一日目の月曜日。&lt;br&gt;
+今夜はバドミントンも行くが、雨が凄いので憂鬱。&lt;br&gt;
+Blog更新がコマンドラインからのみだとめんどくさい、  &lt;/p&gt;
+&lt;p&gt;このためGitHub Actionで、Github上で日記ファイルを置くと、勝手にビルドされて日記が更新されるように …&lt;/p&gt;</summary><content type="html">&lt;p&gt;GW明け一日目の月曜日。&lt;br&gt;
+今夜はバドミントンも行くが、雨が凄いので憂鬱。&lt;br&gt;
+Blog更新がコマンドラインからのみだとめんどくさい、  &lt;/p&gt;
+&lt;p&gt;このためGitHub Actionで、Github上で日記ファイルを置くと、勝手にビルドされて日記が更新されるようにした。&lt;br&gt;
+そして、これはそれを行ってからの初日記。&lt;br&gt;
+ちゃんと動けば良いが、動かなかったら更新されないだけ。。  &lt;/p&gt;
 &lt;p&gt;今回詰まったところは下記箇所
-* 本ブログのテーマはsubmoduleで読み込むようにしているが、submoduleをpullするにはGithub Access Tokenが必要&lt;/p&gt;</content><category term="diary"></category><category term="日常"></category></entry><entry><title>Pelicanでブログを作成</title><link href="https://www.yoshio.dev/diary-2023-05-07.html" rel="alternate"></link><published>2023-05-07T16:50:00+09:00</published><updated>2023-05-07T16:50:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-07:/diary-2023-05-07.html</id><summary type="html">&lt;p&gt;以前までは、BloggerでBlogを一時期書いていた。
+* 本ブログのテーマはsubmoduleで読み込むようにしているが、submoduleをpullするにはGithub Access Tokenが必要  &lt;/p&gt;</content><category term="diary"></category><category term="日常"></category></entry><entry><title>Pelicanでブログを作成</title><link href="https://www.yoshio.dev/diary-2023-05-07.html" rel="alternate"></link><published>2023-05-07T16:50:00+09:00</published><updated>2023-05-07T16:50:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-07:/diary-2023-05-07.html</id><summary type="html">&lt;p&gt;以前までは、BloggerでBlogを一時期書いていた。
 管理がめんどくさくなり、放置しているうちにGoogle Adsenseも切れてしまったので、
 今回は新規で作成。&lt;/p&gt;
 &lt;p&gt;以下の構成で開設
