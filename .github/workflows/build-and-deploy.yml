@@ -20,18 +20,13 @@ jobs:
           python-version: '3.8'
           architecture: 'x64'
       - name: Setup Python Env
-        run: pip3 install pelican markdown ghp-import \
-      - name: ls command
-        run: cd themes/elegant/
+        run: pip3 install pelican markdown ghp-import
       - name: ls2 command
-        run: ls -al themes/elegant/
+        run: ls -al themes/elegant/templates
       - name: Delete search function
-        run: cd themes/elegant/templates |
-          ls -al |
-          sed '/<li><form class="navbar-search"/d' base.html > base_new.html |
-          mv base_new.html base.html |
-          cat base.html |
-          cd ../../../ \
+        run: sed '/<li><form class="navbar-search"/d' themes/elegant/templates/base.html > themes/elegant/templates/base_new.html |
+          mv themes/elegant/templates/base_new.html themes/elegant/templates/base.html |
+          cat themes/elegant/templates/base.html \
       - name: Run Pelican build
         run: make clean |
           make html \
