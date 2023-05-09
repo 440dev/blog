@@ -17,16 +17,16 @@
 
 <meta name="keywords" content="日常, diary, " />
 
-<meta property="og:title" content="Github Actionを使って楽々更新出来るように "/>
-<meta property="og:url" content="https://www.yoshio.dev/diary-2023-05-08.html" />
-<meta property="og:description" content="GW明け一日目の月曜日。 今夜はバドミントンも行くが、雨が凄いので憂鬱。 Blog更新がコマンドラインからのみだとめんどくさい、 このためGitHub Actionで、Github上で日記ファイルを置くと、勝手にビルドされて日記が更新されるように …" />
+<meta property="og:title" content="久々の出社 "/>
+<meta property="og:url" content="https://www.yoshio.dev/diary-2023-05-09.html" />
+<meta property="og:description" content="GW明けの久しぶりの出社。 windowsでpythonを使うの苦労した。 Pythonにパスを通しても、コマンドラインでpythonと打つとwindows storeが開いてしまう。 検索をして、storeを開かないように設定することで問題はなくなった。 Windows搭載のノートパソコンを購入しようとしていたが、コンソールツールが使いにくい。 使いやすいコンソールツールを探す …" />
 <meta property="og:site_name" content="うまでしか" />
 <meta property="og:article:author" content="yoshio" />
-<meta property="og:article:published_time" content="2023-05-08T00:00:00+09:00" />
-<meta name="twitter:title" content="Github Actionを使って楽々更新出来るように ">
-<meta name="twitter:description" content="GW明け一日目の月曜日。 今夜はバドミントンも行くが、雨が凄いので憂鬱。 Blog更新がコマンドラインからのみだとめんどくさい、 このためGitHub Actionで、Github上で日記ファイルを置くと、勝手にビルドされて日記が更新されるように …">
+<meta property="og:article:published_time" content="2023-05-09T00:00:00+09:00" />
+<meta name="twitter:title" content="久々の出社 ">
+<meta name="twitter:description" content="GW明けの久しぶりの出社。 windowsでpythonを使うの苦労した。 Pythonにパスを通しても、コマンドラインでpythonと打つとwindows storeが開いてしまう。 検索をして、storeを開かないように設定することで問題はなくなった。 Windows搭載のノートパソコンを購入しようとしていたが、コンソールツールが使いにくい。 使いやすいコンソールツールを探す …">
 
-        <title>Github Actionを使って楽々更新出来るように  · うまでしか
+        <title>久々の出社  · うまでしか
 </title>
         <link href="https://www.yoshio.dev/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="うまでしか - Full Atom Feed" />
 
@@ -67,8 +67,8 @@
 <div class="row-fluid">
     <header class="page-header span10 offset2">
         <h1>
-            <a href="https://www.yoshio.dev/diary-2023-05-08.html">
-                Github Actionを使って楽々更新出来るように
+            <a href="https://www.yoshio.dev/diary-2023-05-09.html">
+                久々の出社
             </a>
         </h1>
     </header>
@@ -77,14 +77,19 @@
 <div class="row-fluid">
         <div class="span8 offset2 article-content">
             
-            <p>GW明け一日目の月曜日。<br>
-今夜はバドミントンも行くが、雨が凄いので憂鬱。<br>
-Blog更新がコマンドラインからのみだとめんどくさい、  </p>
-<p>このためGitHub Actionで、Github上で日記ファイルを置くと、勝手にビルドされて日記が更新されるようにした。<br>
-そして、これはそれを行ってからの初日記。<br>
-ちゃんと動けば良いが、動かなかったら更新されないだけ。。  </p>
-<p>今回詰まったところは下記箇所
-* 本ブログのテーマはsubmoduleで読み込むようにしているが、submoduleをpullするにはGithub Access Tokenが必要  </p>
+            <p>GW明けの久しぶりの出社。<br>
+windowsでpythonを使うの苦労した。<br>
+Pythonにパスを通しても、コマンドラインでpythonと打つとwindows storeが開いてしまう。<br>
+検索をして、storeを開かないように設定することで問題はなくなった。  </p>
+<p>Windows搭載のノートパソコンを購入しようとしていたが、コンソールツールが使いにくい。 
+使いやすいコンソールツールを探すのを頑張りたい。  </p>
+<p>本ブログには検索欄があったが、これが現在のpelicanのversionでは動かないようであった。 
+sedを使い、そのHTMLをビルド時に削除するようにした。 </p>
+<p>sedの使い方は今後の課題。
+'''
+sed '/<li>&lt;form class="navbar-search"/d'
+'''</p>
+<p>明日も頑張ろう。  </p>
 
 
              
@@ -103,7 +108,7 @@ Blog更新がコマンドラインからのみだとめんどくさい、  </p>
         </div>
         <section id="article-sidebar" class="span2">
             <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2023-05-08T00:00:00+09:00">Mon 08 May 2023</time>
+            <time itemprop="dateCreated" datetime="2023-05-09T00:00:00+09:00">Tue 09 May 2023</time>
             <h4>Category</h4>
             <a class="category-link" href="https://www.yoshio.dev/categories.html#diary-ref">diary</a>
             <h4>Tags</h4>

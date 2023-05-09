@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>うまでしか - diary</title><link href="https://www.yoshio.dev/" rel="alternate"></link><link href="https://www.yoshio.dev/feeds/diary.atom.xml" rel="self"></link><id>https://www.yoshio.dev/</id><updated>2023-05-08T00:00:00+09:00</updated><entry><title>Github Actionを使って楽々更新出来るように</title><link href="https://www.yoshio.dev/diary-2023-05-08.html" rel="alternate"></link><published>2023-05-08T00:00:00+09:00</published><updated>2023-05-08T00:00:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-08:/diary-2023-05-08.html</id><summary type="html">&lt;p&gt;GW明け一日目の月曜日。&lt;br&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>うまでしか - diary</title><link href="https://www.yoshio.dev/" rel="alternate"></link><link href="https://www.yoshio.dev/feeds/diary.atom.xml" rel="self"></link><id>https://www.yoshio.dev/</id><updated>2023-05-09T00:00:00+09:00</updated><entry><title>久々の出社</title><link href="https://www.yoshio.dev/diary-2023-05-09.html" rel="alternate"></link><published>2023-05-09T00:00:00+09:00</published><updated>2023-05-09T00:00:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-09:/diary-2023-05-09.html</id><summary type="html">&lt;p&gt;GW明けの久しぶりの出社。&lt;br&gt;
+windowsでpythonを使うの苦労した。&lt;br&gt;
+Pythonにパスを通しても、コマンドラインでpythonと打つとwindows storeが開いてしまう。&lt;br&gt;
+検索をして、storeを開かないように設定することで問題はなくなった。  &lt;/p&gt;
+&lt;p&gt;Windows搭載のノートパソコンを購入しようとしていたが、コンソールツールが使いにくい。 
+使いやすいコンソールツールを探す …&lt;/p&gt;</summary><content type="html">&lt;p&gt;GW明けの久しぶりの出社。&lt;br&gt;
+windowsでpythonを使うの苦労した。&lt;br&gt;
+Pythonにパスを通しても、コマンドラインでpythonと打つとwindows storeが開いてしまう。&lt;br&gt;
+検索をして、storeを開かないように設定することで問題はなくなった。  &lt;/p&gt;
+&lt;p&gt;Windows搭載のノートパソコンを購入しようとしていたが、コンソールツールが使いにくい。 
+使いやすいコンソールツールを探すのを頑張りたい。  &lt;/p&gt;
+&lt;p&gt;本ブログには検索欄があったが、これが現在のpelicanのversionでは動かないようであった。 
+sedを使い、そのHTMLをビルド時に削除するようにした。 &lt;/p&gt;
+&lt;p&gt;sedの使い方は今後の課題。
+'''
+sed '/&lt;li&gt;&amp;lt;form class="navbar-search"/d'
+'''&lt;/p&gt;
+&lt;p&gt;明日も頑張ろう。  &lt;/p&gt;</content><category term="diary"></category><category term="日常"></category></entry><entry><title>Github Actionを使って楽々更新出来るように</title><link href="https://www.yoshio.dev/diary-2023-05-08.html" rel="alternate"></link><published>2023-05-08T00:00:00+09:00</published><updated>2023-05-08T00:00:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-08:/diary-2023-05-08.html</id><summary type="html">&lt;p&gt;GW明け一日目の月曜日。&lt;br&gt;
 今夜はバドミントンも行くが、雨が凄いので憂鬱。&lt;br&gt;
 Blog更新がコマンドラインからのみだとめんどくさい、  &lt;/p&gt;
 &lt;p&gt;このためGitHub Actionで、Github上で日記ファイルを置くと、勝手にビルドされて日記が更新されるように …&lt;/p&gt;</summary><content type="html">&lt;p&gt;GW明け一日目の月曜日。&lt;br&gt;
