@@ -23,6 +23,7 @@ jobs:
         run: pip3 install pelican markdown ghp-import \
       - name: Delete search function
         run: cd themes/elegant/templates |
+          ls -al |
           sed '/<li><form class="navbar-search"/d' base.html > base_new.html |
           mv base_new.html base.html |
           cat base.html |
