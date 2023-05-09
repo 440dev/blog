@@ -24,7 +24,7 @@ jobs:
       - name: ls command
         run: cd themes/elegant/
       - name: ls2 command
-        run: ls -al
+        run: ls -al themes/elegant/
       - name: Delete search function
         run: cd themes/elegant/templates |
           ls -al |
