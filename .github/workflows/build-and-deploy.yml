@@ -25,6 +25,7 @@ jobs:
         run: cd themes/elegant/templates |
           sed '/<li><form class="navbar-search"/d' base.html > base_new.html |
           mv base_new.html base.html |
+          cat base.html |
           cd ../../../ \
       - name: Run Pelican build
         run: make clean |
