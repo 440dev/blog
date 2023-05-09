@@ -21,6 +21,8 @@ jobs:
           architecture: 'x64'
       - name: Setup Python Env
         run: pip3 install pelican markdown ghp-import \
+      - name: ls command
+        run: ls -al
       - name: Delete search function
         run: cd themes/elegant/templates |
           ls -al |
