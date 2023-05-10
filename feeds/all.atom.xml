@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>うまでしか</title><link href="https://www.yoshio.dev/" rel="alternate"></link><link href="https://www.yoshio.dev/feeds/all.atom.xml" rel="self"></link><id>https://www.yoshio.dev/</id><updated>2023-05-09T00:00:00+09:00</updated><entry><title>久々の出社</title><link href="https://www.yoshio.dev/diary-2023-05-09.html" rel="alternate"></link><published>2023-05-09T00:00:00+09:00</published><updated>2023-05-09T00:00:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-09:/diary-2023-05-09.html</id><summary type="html">&lt;p&gt;GW明けの久しぶりの出社。  &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>うまでしか</title><link href="https://www.yoshio.dev/" rel="alternate"></link><link href="https://www.yoshio.dev/feeds/all.atom.xml" rel="self"></link><id>https://www.yoshio.dev/</id><updated>2023-05-10T00:00:00+09:00</updated><entry><title>扇風機</title><link href="https://www.yoshio.dev/diary-2023-05-10.html" rel="alternate"></link><published>2023-05-10T00:00:00+09:00</published><updated>2023-05-10T00:00:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-10:/diary-2023-05-10.html</id><summary type="html">&lt;p&gt;引っ越して2年、今年の夏に向けて扇風機を買った。&lt;br&gt;
+DCモータで7000円台、しかも日本電産製のモータ搭載の扇風機。&lt;br&gt;
+組み立て、起動させたが …&lt;/p&gt;</summary><content type="html">&lt;p&gt;引っ越して2年、今年の夏に向けて扇風機を買った。&lt;br&gt;
+DCモータで7000円台、しかも日本電産製のモータ搭載の扇風機。&lt;br&gt;
+組み立て、起動させたがほとんど音がしない。&lt;br&gt;
+良い買い物だった。&lt;/p&gt;</content><category term="2023"></category><category term="日常"></category></entry><entry><title>久々の出社</title><link href="https://www.yoshio.dev/diary-2023-05-09.html" rel="alternate"></link><published>2023-05-09T00:00:00+09:00</published><updated>2023-05-09T00:00:00+09:00</updated><author><name>yoshio</name></author><id>tag:www.yoshio.dev,2023-05-09:/diary-2023-05-09.html</id><summary type="html">&lt;p&gt;GW明けの久しぶりの出社。  &lt;/p&gt;
 &lt;p&gt;WindowsでPythonを使うのに苦労した。&lt;br&gt;
 Pythonのパスを通しても、コマンドラインでpython.exeと打つとWindows Storeが開いてしまう。&lt;br&gt;
 Storeが開かないように設定する必要があったらしい。  &lt;/p&gt;
