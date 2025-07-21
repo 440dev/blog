@@ -1,0 +1,8 @@
+# サイトの基本情報
+title: うまでしか
+description: "うまでしかブログです"
+theme: jekyll-theme-minimal
+
+# Markdownエンジンの設定
+kramdown:
+  math_engine: mathjax
